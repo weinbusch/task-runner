@@ -18,7 +18,7 @@
 2.  Make module `foo.py` executable as a script:
 
     ```python
-    from task_runer import ..., main
+    from task_runner import main
 
     ...
 
@@ -53,7 +53,7 @@ TODO: implement nested calls to `cd`.
 
 ### Run a command as administrator
 
-On Windows, use the `task_runner.Runner.runas` command to run command with elevated priviledges. For example,
+On Windows, use the `task_runner.Runner.runas` command to run command with elevated privileges. For example,
 start apache installed as a service:
 
 ```python
